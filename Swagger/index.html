@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swagger Metrics</title>
+  <link rel="stylesheet" href="Style/base.css">
+  <link rel="stylesheet" href="Style/sales.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="app-title">Swagger Metrics</div>
+        <p class="app-subtitle">Lightweight API Dashboard</p>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" data-route="home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#user" data-route="user" class="nav-link">User</a></li>
+          <li class="nav-item"><a href="#codes" data-route="codes" class="nav-link">Codes</a></li>
+          <li class="nav-item"><a href="#sales" data-route="sales" class="nav-link">Sales</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main id="app-content" role="main" aria-live="polite">
+      <!-- Page content will be injected here by the router -->
+    </main>
+  </div>
+
+  <script src="JavaScript/api.js"></script>
+  <script src="JavaScript/app.js"></script>
+  <script src="JavaScript/common.js"></script>
+  <script src="JavaScript/sales.js"></script>
+  <script src="JavaScript/codes.js"></script>
+  <script src="JavaScript/users.js"></script>
+</body>
+</html>
